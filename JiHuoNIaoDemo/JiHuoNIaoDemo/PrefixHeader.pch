@@ -1,0 +1,24 @@
+//
+//  PrefixHeader.pch
+//  GuangGaoCeDemo
+//
+//  Created by ooo on 2024/9/5.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define GDWindow [UIApplication sharedApplication].keyWindow
+/// 屏幕宽度，会根据横竖屏的变化而变化
+#define SCREEN_WIDTH ([[UIScreen mainScreen] bounds].size.width)
+
+/// 屏幕高度，会根据横竖屏的变化而变化
+#define SCREEN_HEIGHT ([[UIScreen mainScreen] bounds].size.height)
+
+
+#import <JIHuoNiaoAdSDK/JIHuoNiaoAdSDK.h>
+#import <XHToast/XHToast.h>
+
+#define AdSColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+#endif /* PrefixHeader_pch */
