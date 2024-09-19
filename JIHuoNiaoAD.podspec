@@ -17,6 +17,8 @@ Pod::Spec.new do |spec|
   spec.frameworks = "AVFoundation","CFNetwork","CoreFoundation","CoreGraphics","CoreLocation","Foundation","MediaPlayer","Security","StoreKit","UIKit","WebKit","SystemConfiguration","QuartzCore","MobileCoreServices","CoreTelephony"
   spec.platform     = :ios, "11.0" #平台及支持的最低版本
   spec.resource = 'jiHuoNIaoSDk/JIHuoNiaoImage.bundle'
+  spec.libraries = 'z'
+  spec.requires_arc = true
   
   spec.description  = <<-DESC
                          库
