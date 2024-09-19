@@ -1,0 +1,6 @@
+framework module JIHuoNiaoAdSDK {
+  umbrella header "JIHuoNiaoAdSDK.h"
+  export *
+
+  module * { export * }
+}
