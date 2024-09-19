@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   spec.source_files = "jiHuoNIaoSDk/JIHuoNiaoAdSDK.framework/Headers/*"
   spec.vendored_frameworks = 'jiHuoNIaoSDk/JIHuoNiaoAdSDK.framework'
   spec.frameworks = "AVFoundation","CFNetwork","CoreFoundation","CoreGraphics","CoreLocation","Foundation","MediaPlayer","Security","StoreKit","UIKit","WebKit","SystemConfiguration","QuartzCore","MobileCoreServices","CoreTelephony"
-  spec.platform     = :ios, "12.0" #平台及支持的最低版本
+  spec.platform     = :ios, "11.0" #平台及支持的最低版本
   spec.resource = 'jiHuoNIaoSDk/JIHuoNiaoImage.bundle'
   
   spec.description  = <<-DESC
